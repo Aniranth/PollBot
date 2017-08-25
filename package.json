@@ -1,0 +1,1 @@
+  "name": "PollBot",  "version": "1.0.0",  "description": "Poll handle",  "main": "poll.js",  "scripts": {    "poll": "nodemon poll.js"  },  "author": "Aniranth",  "license": "ISC",  "dependencies": {    "discordie": "^0.11.0",  }}
