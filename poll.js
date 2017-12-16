@@ -6,7 +6,7 @@ var bot_token = "MzMxMjE0MDEwODc4MDAxMTYy.DDsSqA.3B21qap7rC3grFsQOrQng5G8D28"
 var client = new Discordie();
 var polls = [];
  
-client.connect({ token: bot_token });
+client.connect({ process.env.BOT_TOKEN });
 
 client.Dispatcher.on(Events.GATEWAY_READY, e => {
   console.log("Connected as: " + client.User.username);
