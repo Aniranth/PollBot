@@ -1,1 +1,27 @@
-  "name": "PollBot",  "version": "1.0.0",  "description": "Poll handle",  "main": "poll.js",  "scripts": {    "poll": "nodemon poll.js"  },  "author": "Aniranth",  "license": "ISC",  "dependencies": {    "discordie": "^0.11.0"  }}
+{
+  "name": "pollbot",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "poll.js",
+  "dependencies": {
+    "discordie": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniranth/PollBot.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Aniranth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aniranth/PollBot/issues"
+  },
+  "homepage": "https://github.com/Aniranth/PollBot#readme"
+}
